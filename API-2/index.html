@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+   
+</head>
+<body>
+    
+    <h1 style="margin-top: 50px;">Busca Deputados</h1>
+    <div style="background-color: rgb(7, 196, 243);display: flex;margin-top: 100px;border-radius: 20px 20px 20px 20px;">
+        <div style="background-color: rgb(0, 0, 0); text-align: center;border-radius: 20px 0px 0px 20px;">
+            <div style="margin-top: 100px;margin-bottom: 100px;">
+                <div class="">
+                    <div class = "row">]
+                        <input id="buscarDep_Part" type="text" placeholder="Partido" style="margin-top: 10px;">
+                <button id="submit" style="margin-top: 10px;">buscar</button>
+                
+                    </div>
+                    <div class = "row">]
+
+                        <input id="buscarDep_Nome" type="text" placeholder="Deputado"style="margin-top: 10px;">
+                        <button id="submit2" style="margin-top: 10px;">buscar</button>
+                        
+                    </div>
+                    <div class = "row">]
+                        <input id="buscarPart_sigla" type="text" placeholder="Sigla do Partido"style="margin-top: 10px;">
+                        <button id="submit3"style="margin-top: 10px;">buscar</button>
+                        <br>
+                    </div> 
+                    <div class = "row">]
+                      
+                <button id=buscarDep style="margin-top: 10px;">Listar Deputados</button>
+                <button id=buscarPart style="margin-top: 10px;">Listar Partidos</button>
+  
+                    </div>
+                </div>            </div>
+            
+        </div>
+        <div style="overflow: hidden;overflow-y: scroll;text-align: center;">
+                <p id=tela></p>
+        </div>
+        <div style="text-align: center;color: cornsilk;border-radius: 0px 20px 20px 0px;">
+            <p id="depFederal" style="visibility: hidden;" >DEP. FEDERAL</p>
+            <p id="nomeDep" style="margin-top: 0px" ></p>
+            <img id="FotoDep" src="" alt="" style="width: 150px;;border-radius: 20px;">
+        </div>
+        
+    </div>
+    
+    
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

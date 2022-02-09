@@ -1,0 +1,46 @@
+*{
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+}
+  
+*::-webkit-scrollbar {
+    width: 5px;
+    margin-right: 10px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+}
+
+a:hover{
+    border-bottom: 1px  solid white;
+}
+
+#tela{
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 40px;
+    text-align: left;
+    color:rgb(0, 132, 255);
+    margin: 0;
+    padding: 20px;
+    text-shadow: darkviolet;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+body{
+    
+}
